@@ -1029,7 +1029,8 @@ input[type="submit"]:hover {
 
 .performance-sec-notes>p {
     margin-bottom: 30px;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .performance-sec-notes.head-para {
@@ -1370,7 +1371,7 @@ footer {
 .performance-inr .sec-head p {
     font-family: var(--body-font);
     font-size: 20.5px;
-    text-transform: capitalize;
+    text-transform: unset;
     font-weight: 300;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -2288,7 +2289,7 @@ footer {
     }
 
     .sec-head.head-white h2 {
-        font-size: 36px;
+        font-size: 46px;
     }
 
     h3,
@@ -2412,6 +2413,8 @@ footer {
 
     .hero-img-single:nth-child(3) {
         height: 260px;
+        transform: rotate(30deg);
+        left: 10%;
     }
 
     /* End Of SS160725 */
@@ -2419,6 +2422,14 @@ footer {
 
 /* SS230725 Begin */
 @media only screen and (max-width: 479px) {
+    .hero-heading h1 {
+        margin-bottom: 0;
+        font-size: 42px;
+
+        br {
+            display: none;
+        }
+    }
 
     h2,
     .h2-title {
@@ -2511,7 +2522,7 @@ header.main-head {
 
 .performance-sec-notes .head-para {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 span.react-select__indicator-separator {
@@ -2543,3 +2554,186 @@ span.react-select__indicator-separator {
     padding: 0 !important;
     margin: 0 !important;
 }
+
+/* DK-RESP */
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+    .hero-content {
+        padding-left: 30px;
+        padding-top: 80px;
+    }
+
+    .gaols-left h2 {
+        font-size: 76px;
+    }
+
+    .how-work-card p {
+        margin-bottom: 35px;
+    }
+
+    .how-work-card h3 {
+        font-size: 49px;
+    }
+
+    .how-works-sec::before {
+        left: -290px;
+        bottom: 33%;
+        width: 560px;
+        height: 560px;
+    }
+
+    .whistle-texture {
+        bottom: 9.8%;
+        max-height: 820px;
+    }
+
+    .hw-cmn-sec .cmn-list-wrp p br {
+        display: none;
+    }
+
+    .bad-habits-card h3 {
+        font-weight: 500;
+        font-family: 'Graphik';
+    }
+
+    .performance-table table tr th {
+        font-weight: 500;
+        font-family: 'Graphik';
+    }
+
+    .performance-sec-notes .head-para {
+        font-size: 17px;
+    }
+
+    .waitlist-left .sec-head h2 {
+        font-size: 76px;
+        padding-right: 100px;
+    }
+
+    .waitlist-right h3 {
+        font-size: 28px;
+        font-family: 'Graphik';
+        font-weight: 500;
+    }
+
+    .ftr-title-text {
+        font-size: 24px;
+    }
+
+    .copyright {
+        font-size: 18px;
+    }
+
+    .ftr-widget p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:999px) {
+    .hero-heading h1 {
+        font-size: 100px;
+    }
+
+    .hero-content a.cmn-btn {
+        width: 100%;
+    }
+
+    .goals-right p {
+        font-size: 20px;
+    }
+
+    .how-works-sec::before {
+        left: -95px;
+        width: 200px;
+        height: 200px;
+        top: 45.8%;
+    }
+
+    .whistle-texture {
+        left: -50px;
+        top: 48%;
+    }
+
+    .waitlist-left .sec-head h2 br {
+        display: none;
+    }
+
+    .waitlist-right h3 {
+        font-size: 24px;
+    }
+
+    .waitlist-right .cmn-list p {
+        margin-bottom: 10px;
+    }
+
+    .waitlist-right .cmn-list p {
+        margin-bottom: 25px;
+    }
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:359px) {
+
+    /* BANNER-SECTION */
+    .hero-body {
+        gap: 120px;
+    }
+
+    .hero-images {
+        left: -25%;
+        height: 250px;
+    }
+
+    .hero-img-single:first-child {
+        transform: rotate(-18deg);
+        left: 0;
+        top: 5%;
+    }
+
+    .hero-img-single:nth-child(2) {
+        left: 10%;
+    }
+
+    .hero-img-single:nth-child(3) {
+        height: 250px;
+        transform: rotate(32deg);
+        left: 10%;
+        top: 3%;
+    }
+
+    .hero-img-single:last-child {
+        transform: rotate(55deg);
+        left: 8%;
+        z-index: -1;
+        top: 10%;
+    }
+
+    /* BANNER-SECTION */
+
+    /* SHAPE-WHISTLE-SECTION */
+
+    .how-works-sec::before {
+        left: -100px;
+        width: 195px;
+        height: 195px;
+        top: 44.6%;
+        transform: translateY(-50%);
+    }
+
+    .whistle-texture {
+        top: 45.7%;
+    }
+
+    /* SHAPE-WHISTLE-SECTION */
+
+    .waitlist-right h3 {
+        font-size: 25px;
+    }
+
+    .waitlist-right .cmn-list p {
+        margin-bottom: 20px;
+    }
+}
+
+/* DK-RESP */
