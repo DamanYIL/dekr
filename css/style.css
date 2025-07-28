@@ -908,10 +908,11 @@ input[type="submit"]:hover {
 
 .bad-habits-card h3 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
     font-family: var(--body-font);
     color: var(--warm-pink);
+    font-family: 'Graphik';
 }
 
 .bad-habits-card p {
@@ -2569,6 +2570,11 @@ span.react-select__indicator-separator {
 
     .how-work-card p {
         margin-bottom: 35px;
+        font-size: 21.3px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     .how-work-card h3 {
@@ -2627,7 +2633,58 @@ span.react-select__indicator-separator {
     .ftr-widget p {
         font-size: 18px;
     }
+
+    .hero-heading {
+        margin-bottom: 60px;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+        padding-right: 70px;
+    }
+
+    .cmn-list-wrp .cmn-list ul li {
+        font-size: 20px;
+    }
+
+    .hw-cmn-sec .cmn-list-wrp {
+        font-size: 21px;
+    }
+
+    .hw-cmn-sec .cmn-para p {
+        font-size: 21px;
+    }
+
+    .hw-cmn-sec .cmn-para p br {
+        display: none;
+    }
+
+    .performance-table table tr th,
+    .performance-table table tr td {
+        vertical-align: baseline;
+    }
+
+    .performance-inr .sec-head p {
+        font-size: 21px;
+    }
+
+    .waitlist-left .sec-head h2 br {
+        display: none;
+    }
+
+    .waitlist-right .cmn-list ul li {
+        padding-right: 150px;
+    }
+
+    .copyright {
+        margin-bottom: 30px;
+    }
+
+    .policy-links {
+        margin-top: 30px;
+    }
 }
+
 
 @media only screen and (min-width:768px) and (max-width:999px) {
     .hero-heading h1 {
@@ -2668,6 +2725,46 @@ span.react-select__indicator-separator {
 
     .waitlist-right .cmn-list p {
         margin-bottom: 25px;
+    }
+
+    .oval-texture {
+        bottom: -3.5%;
+        right: -70px;
+        width: 305px;
+    }
+
+    .how-work-card h3 {
+        margin-bottom: 12px;
+    }
+
+    .hw-cmn-sec .cmn-list-wrp {
+        font-size: 21px;
+    }
+
+    .hw-cmn-sec .cmn-list-wrp p br {
+        display: none;
+    }
+
+    .hw-cmn-sec .cmn-para p br {
+        display: none;
+    }
+
+    .hw-cmn-sec .cmn-para p {
+        font-size: 20.2px;
+    }
+
+    .performance-table table tr th {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Graphik';
+    }
+
+    .performance-sec-notes .head-para {
+        font-size: 17px;
+    }
+
+    .ftr-widget {
+        padding: 30px 0 0;
     }
 }
 
@@ -2723,6 +2820,7 @@ span.react-select__indicator-separator {
 
     .whistle-texture {
         top: 45.7%;
+        left: -30px;
     }
 
     /* SHAPE-WHISTLE-SECTION */
@@ -2733,6 +2831,69 @@ span.react-select__indicator-separator {
 
     .waitlist-right .cmn-list p {
         margin-bottom: 20px;
+    }
+
+    .hw-cmn-sec .cmn-list-wrp p {
+
+        font-size: 21px;
+    }
+
+    .hw-cmn-sec .cmn-list-wrp p br {
+        display: none;
+    }
+
+    .hero-heading h1 {
+        font-size: 48px;
+    }
+
+    .circle-texture {
+        align-items: flex-start;
+    }
+
+    .circle-texture img {
+        object-fit: contain;
+        transform: scale(2);
+        object-position: top;
+    }
+
+    .oval-texture {
+        bottom: -20%;
+        width: 90%;
+        right: -35px;
+    }
+
+    .how-work-card p {
+        font-size: 21px;
+    }
+
+    .hw-cmn-sec.hw-work-badhabits-sec .sec-head p {
+        font-size: 18px;
+    }
+
+    .bad-habits-card p {
+        font-size: 20.9px;
+    }
+
+    .hw-cmn-sec .cmn-para p {
+        font-size: 20px;
+    }
+
+    .hw-cmn-sec .cmn-para p br {
+        display: none;
+    }
+
+    .performance-table table tr th,
+    .performance-table table tr td {
+        vertical-align: text-top;
+    }
+
+    .performance-table table tr th {
+        font-weight: 500;
+        font-family: 'Graphik';
+    }
+
+    .community-inr .cmn-list-wrp>p {
+        font-size: 20px;
     }
 }
 
