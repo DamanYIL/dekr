@@ -2632,8 +2632,9 @@ span.react-select__indicator-separator {
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
     .hero-content {
-        padding-left: 30px;
+        padding-left: 80px;
         padding-top: 80px;
+        width: 45%;
     }
 
     .gaols-left h2 {
