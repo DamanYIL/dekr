@@ -721,7 +721,7 @@ input[type="submit"]:hover {
 }
 
 .hero-img-single:last-child {
-    transform: rotate(55deg);
+    transform: rotate(58deg);
     left: 8%;
     z-index: -1;
 }
@@ -861,9 +861,34 @@ input[type="submit"]:hover {
     margin-bottom: 20px;
 }
 
-.hw-cd-count::before {
+/* .hw-cd-count::before {
     counter-increment: how-work-card-count;
     content: counter(how-work-card-count);
+} */
+
+.hw-cd-count::before {
+    content: "";
+    background-image: url(../images/count/1.svg);
+    background-size: contain;
+    background-position: center left 7px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.hw-cmn-sec .row .col-lg-3:nth-child(2) .hw-cd-count::before {
+    background-image: url(../images/count/2.svg);
+    background-position: center;
+}
+
+.hw-cmn-sec .row .col-lg-3:nth-child(3) .hw-cd-count::before {
+    background-image: url(../images/count/3.svg);
+    background-position: center;
+}
+
+.hw-cmn-sec .row .col-lg-3:nth-child(4) .hw-cd-count::before {
+    background-image: url(../images/count/4.svg);
+    background-position: center;
 }
 
 .hw-cmn-sec {
@@ -897,6 +922,11 @@ input[type="submit"]:hover {
 .cmn-list-wrp .cmn-list ul {
     padding-left: 30px;
     list-style: disc;
+}
+
+.cmn-list ul li span {
+    color: var(--link-clr-2);
+    text-decoration: underline !important;
 }
 
 .hw-cmn-sec .cmn-list-wrp {
@@ -1423,8 +1453,8 @@ footer {
     }
 
     .hero-content {
-        width: 45%;
-        padding-left: 80px;
+        width: 50%;
+        padding-left: 10px;
     }
 
     .hero-images {
@@ -2558,6 +2588,48 @@ span.react-select__indicator-separator {
 
 /* DK-RESP */
 
+@media only screen and (min-width:1440px) and (max-width:1728px) {
+    .hero-content {
+        width: 50%;
+        padding-left: 0px;
+    }
+
+    .goals-inr {
+        padding: 40px 0 70px;
+    }
+
+    .oval-texture {
+        bottom: -35%;
+        right: 20px;
+        width: 30%;
+    }
+
+    .how-works-sec::before {
+        left: -330px;
+        bottom: 30%;
+        width: 500px;
+        height: 500px;
+    }
+
+    .whistle-texture {
+        left: -180px;
+        bottom: 9.5%;
+        max-height: 700px;
+    }
+
+    .performance-table table tr td {
+        vertical-align: baseline;
+    }
+
+    .performance-sec-notes>p {
+        font-size: 21px;
+    }
+
+    .community-wrp {
+        background: #F6F0DF;
+    }
+}
+
 @media only screen and (min-width:1200px) and (max-width:1399px) {
     .hero-content {
         padding-left: 30px;
@@ -2612,7 +2684,7 @@ span.react-select__indicator-separator {
     }
 
     .waitlist-left .sec-head h2 {
-        font-size: 76px;
+        font-size: 82px;
         padding-right: 100px;
     }
 
@@ -2683,12 +2755,28 @@ span.react-select__indicator-separator {
     .policy-links {
         margin-top: 30px;
     }
+
+    .hero-img-single:last-child {
+        transform: rotate(58deg);
+    }
+
+    .hero-heading h1 {
+        line-height: 113px;
+    }
 }
 
 
 @media only screen and (min-width:768px) and (max-width:999px) {
     .hero-heading h1 {
         font-size: 100px;
+    }
+
+    .how-work-card p {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     .hero-content a.cmn-btn {
@@ -2700,15 +2788,13 @@ span.react-select__indicator-separator {
     }
 
     .how-works-sec::before {
-        left: -95px;
-        width: 200px;
-        height: 200px;
-        top: 45.8%;
+        left: -100px;
+        top: 44.8%;
     }
 
     .whistle-texture {
         left: -50px;
-        top: 48%;
+        top: 47.6%;
     }
 
     .waitlist-left .sec-head h2 br {
@@ -2728,9 +2814,9 @@ span.react-select__indicator-separator {
     }
 
     .oval-texture {
-        bottom: -3.5%;
-        right: -70px;
-        width: 305px;
+        bottom: -5.8%;
+        right: -110px;
+        width: 340px;
     }
 
     .how-work-card h3 {
@@ -2759,12 +2845,24 @@ span.react-select__indicator-separator {
         font-family: 'Graphik';
     }
 
+    .performance-table table tr td {
+        vertical-align: baseline;
+    }
+
     .performance-sec-notes .head-para {
         font-size: 17px;
     }
 
     .ftr-widget {
         padding: 30px 0 0;
+    }
+
+    .sec-head {
+        margin-bottom: 30px;
+    }
+
+    .ftr-title-text {
+        font-size: 23px;
     }
 }
 
@@ -2814,13 +2912,13 @@ span.react-select__indicator-separator {
         left: -100px;
         width: 195px;
         height: 195px;
-        top: 44.6%;
+        top: 45.4%;
         transform: translateY(-50%);
     }
 
     .whistle-texture {
-        top: 45.7%;
-        left: -30px;
+        top: 46.2%;
+        left: -35px;
     }
 
     /* SHAPE-WHISTLE-SECTION */
@@ -2894,6 +2992,24 @@ span.react-select__indicator-separator {
 
     .community-inr .cmn-list-wrp>p {
         font-size: 20px;
+    }
+
+    .bad-habits-cards-wrp {
+        gap: 35px;
+    }
+
+    .bad-habits-card a svg {
+        width: 20px;
+    }
+
+    .performance-table table tr td:first-child {
+        width: 100px;
+        padding-right: 17px;
+    }
+
+    .waitlist-right .cmn-btn {
+        margin-bottom: 10px;
+        padding: 15px 20px;
     }
 }
 
