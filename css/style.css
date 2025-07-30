@@ -911,7 +911,7 @@ input[type="submit"]:hover {
 .hw-cmn-sec .sec-head h2 {
     font-size: 45px;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hw-cmn-sec .sec-head p {
@@ -2586,9 +2586,33 @@ span.react-select__indicator-separator {
     margin: 0 !important;
 }
 
+
+/* DK-NEW */
+
+.how-works-sec .oval-texture {
+    top: 0;
+    bottom: inherit;
+    opacity: 1;
+    z-index: 0;
+    filter: sepia(0.5);
+    mix-blend-mode: color-burn;
+}
+
+.oval-texture {
+    bottom: 0;
+    right: -50px;
+    width: 32%;
+
+    img {
+        width: 100%;
+    }
+}
+
+/* DK-NEW */
+
 /* DK-RESP */
 
-@media only screen and (min-width:1440px) and (max-width:1728px) {
+@media only screen and (min-width:1529px) and (max-width:1728px) {
     .hero-content {
         width: 50%;
         padding-left: 0px;
@@ -2599,22 +2623,62 @@ span.react-select__indicator-separator {
     }
 
     .oval-texture {
-        bottom: -35%;
-        right: 20px;
-        width: 30%;
+        right: -50px;
+        width: 35%;
     }
 
     .how-works-sec::before {
-        left: -330px;
-        bottom: 30%;
-        width: 500px;
-        height: 500px;
+        left: -12%;
+        bottom: 34%;
+        width: 450px;
+        height: 450px;
     }
 
     .whistle-texture {
-        left: -180px;
-        bottom: 9.5%;
-        max-height: 700px;
+        left: -150px;
+        bottom: 6%;
+        max-height: 790px;
+    }
+
+    .performance-table table tr td {
+        vertical-align: baseline;
+    }
+
+    .performance-sec-notes>p {
+        font-size: 21px;
+    }
+
+    .community-wrp {
+        background: #F6F0DF;
+    }
+}
+
+@media only screen and (min-width:1400px) and (max-width:1528px) {
+    .hero-content {
+        width: 50%;
+        padding-left: 0px;
+    }
+
+    .goals-inr {
+        padding: 40px 0 70px;
+    }
+
+    .oval-texture {
+        right: -50px;
+        width: 35%;
+    }
+
+    .how-works-sec::before {
+        left: -15%;
+        bottom: 33%;
+        width: 550px;
+        height: 550px;
+    }
+
+    .whistle-texture {
+        left: -95px;
+        bottom: 7%;
+        max-height: 780px;
     }
 
     .performance-table table tr td {
@@ -2632,9 +2696,16 @@ span.react-select__indicator-separator {
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
     .hero-content {
-        padding-left: 80px;
+        padding-left: 30px;
         padding-top: 80px;
-        width: 45%;
+    }
+
+    .hero-images {
+        height: 420px;
+    }
+
+    .hero-img-single:nth-child(3) {
+        height: 420px;
     }
 
     .gaols-left h2 {
@@ -2654,6 +2725,10 @@ span.react-select__indicator-separator {
         font-size: 49px;
     }
 
+    .oval-texture {
+        width: 35%;
+    }
+
     .how-works-sec::before {
         left: -290px;
         bottom: 33%;
@@ -2662,8 +2737,9 @@ span.react-select__indicator-separator {
     }
 
     .whistle-texture {
-        bottom: 9.8%;
-        max-height: 820px;
+        bottom: 9.6%;
+        max-height: 850px;
+        left: -90px;
     }
 
     .hw-cmn-sec .cmn-list-wrp p br {
@@ -2790,12 +2866,13 @@ span.react-select__indicator-separator {
 
     .how-works-sec::before {
         left: -100px;
-        top: 44.8%;
+        top: 45.5%;
     }
 
     .whistle-texture {
         left: -50px;
-        top: 47.6%;
+        top: 48.2%;
+        max-width: 330px;
     }
 
     .waitlist-left .sec-head h2 br {
@@ -2815,9 +2892,9 @@ span.react-select__indicator-separator {
     }
 
     .oval-texture {
-        bottom: -5.8%;
-        right: -110px;
-        width: 340px;
+        bottom: 0;
+        right: -50px;
+        width: 45%;
     }
 
     .how-work-card h3 {
@@ -2913,13 +2990,13 @@ span.react-select__indicator-separator {
         left: -100px;
         width: 195px;
         height: 195px;
-        top: 45.4%;
+        top: 45%;
         transform: translateY(-50%);
     }
 
     .whistle-texture {
-        top: 46.2%;
-        left: -35px;
+        top: 46%;
+        left: -25px;
     }
 
     /* SHAPE-WHISTLE-SECTION */
@@ -2956,9 +3033,8 @@ span.react-select__indicator-separator {
     }
 
     .oval-texture {
-        bottom: -20%;
+        bottom: 0;
         width: 90%;
-        right: -35px;
     }
 
     .how-work-card p {
