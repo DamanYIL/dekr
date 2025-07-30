@@ -1027,6 +1027,7 @@ input[type="submit"]:hover {
 .performance-table table tr td {
     color: var(--warm-pink);
     padding: 12px 20px;
+    font-weight: 300;
 }
 
 .performance-table table tr td p {
@@ -2651,9 +2652,21 @@ span.react-select__indicator-separator {
     .community-wrp {
         background: #F6F0DF;
     }
+
+    .hw-cmn-sec .sec-head p {
+        max-width: 330px;
+    }
+
+    .hero-heading h1 {
+        line-height: 113px;
+    }
 }
 
 @media only screen and (min-width:1400px) and (max-width:1528px) {
+    .hw-cmn-sec .sec-head p {
+        max-width: 330px;
+    }
+
     .hero-content {
         width: 50%;
         padding-left: 0px;
@@ -2695,6 +2708,10 @@ span.react-select__indicator-separator {
 }
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
+    .hw-cmn-sec .sec-head p {
+        max-width: 330px;
+    }
+
     .hero-content {
         padding-left: 30px;
         padding-top: 80px;
@@ -2733,12 +2750,12 @@ span.react-select__indicator-separator {
         left: -310px;
         bottom: 32%;
         width: 560px;
-        height: 560px;
+        height: 580px;
     }
 
     .whistle-texture {
-        bottom: 8%;
-        max-height: 860px;
+        bottom: 10.5%;
+        max-height: 800px;
         left: -120px;
     }
 
@@ -2865,8 +2882,10 @@ span.react-select__indicator-separator {
     }
 
     .how-works-sec::before {
-        left: -100px;
+        left: -125px;
         top: 45.5%;
+        height: 220px;
+        width: 220px;
     }
 
     .whistle-texture {
