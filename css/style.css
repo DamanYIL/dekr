@@ -2701,11 +2701,11 @@ span.react-select__indicator-separator {
     }
 
     .hero-images {
-        height: 420px;
+        height: 400px;
     }
 
     .hero-img-single:nth-child(3) {
-        height: 420px;
+        height: 400px;
     }
 
     .gaols-left h2 {
@@ -2730,16 +2730,16 @@ span.react-select__indicator-separator {
     }
 
     .how-works-sec::before {
-        left: -290px;
-        bottom: 33%;
+        left: -310px;
+        bottom: 32%;
         width: 560px;
         height: 560px;
     }
 
     .whistle-texture {
-        bottom: 9.6%;
-        max-height: 850px;
-        left: -90px;
+        bottom: 8%;
+        max-height: 860px;
+        left: -120px;
     }
 
     .hw-cmn-sec .cmn-list-wrp p br {
@@ -2834,7 +2834,7 @@ span.react-select__indicator-separator {
     }
 
     .hero-img-single:last-child {
-        transform: rotate(58deg);
+        transform: rotate(62deg);
     }
 
     .hero-heading h1 {
